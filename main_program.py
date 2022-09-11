@@ -224,4 +224,5 @@ class maze():
                 stdscr.getch()
 
         wrapper(maze_finder)
+maze()
 
