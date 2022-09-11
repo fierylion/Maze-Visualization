@@ -12,13 +12,14 @@ class Graph():
                 self.data[j].append(i)
         else:
             Graph.create_matrix(self)   #see the nodes in a matrix  inform 0's and 1's. 1's --> " ", 0's --> "#"
-    def __repr__(self):
-        if not self.ismatrix:
-            return "\n".join([f"{i}: {j}" for i,j in enumerate(self.data)])
-        else:
-            return "\n".join(["    "+str([i for i in range(self.num_nodes)]).strip("[").strip("]")]+[f"{i}: {j}" for i,j in enumerate(self.data)])
-    def __str__(self):
-        return self.__repr__()
+     #see representation of the graph
+#     def __repr__(self):
+#         if not self.ismatrix:
+#             return "\n".join([f"{i}: {j}" for i,j in enumerate(self.data)])
+#         else:
+#             return "\n".join(["    "+str([i for i in range(self.num_nodes)]).strip("[").strip("]")]+[f"{i}: {j}" for i,j in enumerate(self.data)]) 
+#     def __str__(self):
+#         return self.__repr__()
 
     def create_matrix(self):
         for i in range(len(self.data)):
