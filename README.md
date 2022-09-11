@@ -4,6 +4,9 @@ Inorder to run the program.
 --->pip install pyipnputplus
 or 
 --->pip install --users pyinputplus
+2. Install curses module. If on windows.
+---> pip install curses
 
-2. Make sure graphs.py and maze_generator.py are in the same directory as main_program.py
-3. Run main_program.py file.......
+
+3. Make sure graphs.py and maze_generator.py are in the same directory as main_program.py
+4. Run main_program.py file.......
